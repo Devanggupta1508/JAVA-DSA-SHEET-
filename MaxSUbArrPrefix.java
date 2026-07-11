@@ -13,7 +13,9 @@
             prefixArray[i] = prefixArray[i-1] + arr[i];
         }
 
-       for(int i =0;i<arr.length;i++){ 
+
+
+       for(int i =0;i<arr.length;i++){  
            int start = i;
          
               for(int j=i;j<arr.length;j++){
@@ -22,7 +24,7 @@
              currSum = prefixArray[start];
                                       }
         else{
-         currSum = prefixArray[end] - prefixArray[start-1];
+         currSum = prefixArray[end] - prefixArray[start-1];                                                                                                                                                                                                        
           }
                    if(maxSum<currSum){
                     maxSum = currSum;

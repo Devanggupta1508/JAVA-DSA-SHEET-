@@ -33,5 +33,5 @@ class DiagonalSum {
             };
 
         DiagonalSumArray(arr);
-         }
+         } 
     }

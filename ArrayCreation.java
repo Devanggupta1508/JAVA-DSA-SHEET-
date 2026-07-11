@@ -1,6 +1,6 @@
 import java.util.*;
 public class ArrayCreation {
-    
+     //finding the element in the array 
     public static void findArr(int arr[][],int key){
 
         for(int i=0;i<arr.length;i++){
@@ -22,6 +22,7 @@ public class ArrayCreation {
 
 
     public static void main(String[] args){
+        
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the Size of the Row");
         int row = sc.nextInt();

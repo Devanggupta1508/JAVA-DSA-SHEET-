@@ -6,3 +6,4 @@ class StringPrac {
  System.out.println(str1); 
     }
 }
+

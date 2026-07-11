@@ -2,7 +2,7 @@ public class StringCompression {
 
     public static void compressionMethod(String str){
 
-        StringBuilder newString = new StringBuilder();
+        StringBuilder newString = new StringBuilder(); // mutable
 
         for(int i = 0; i < str.length(); i++){
 

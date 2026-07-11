@@ -19,7 +19,7 @@ public class SearchSortedArray {
         }
         else {
             row++;
-        }
+        } 
     }
 
     System.out.println("Key not found: " + key);
